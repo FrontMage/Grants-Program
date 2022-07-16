@@ -9,12 +9,11 @@
 
 ### Overview
 
-Please provide the following:
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
-- An indication of why your team is interested in creating this project.
+We sincerely request a funding grant from the web3 Foundation to build a decentralized edge computing framework that will provide a basic environment for off-chain decentralized application development. Today, on-chain web3 applications have shown a blossoming ecology, but off-chain web3 applications lack a common environment. For example, chainlink keepers is a decentralized component dedicated to the oracle machine domain, filecoin's fvm is a decentralized component dedicated to the storage domain, and kp3r is a guardian network focused on the Defi domain. However, they more or less lack some key components of decentralization off-chain, such as commitment to security, commitment to privacy, commitment to availability, and commitment to actual available nodes.
+
+Deeper Network will leverage its technical strengths to provide security, privacy and scalability to the on-chain decentralized base execution environment, thus opening up the possibility for many potential web3 applications to emerge.
+
 
 ### Project Details
 
