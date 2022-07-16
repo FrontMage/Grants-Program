@@ -49,9 +49,9 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 ### Team members
 
 -   Hui Liu
--   Bin Guo
+-   Jerry Yu
 -   Biguo Xin
--   Bo Yu
+-   Bin Guo
 -   Fei Xie
 
 ### Contact
@@ -71,17 +71,30 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 **Hui Liu**  
 Hui worked at Intel, Fortinet, and Palo Alto Networks, where he held positions such as R&D Manager and Chief Engineer. He brings more than ten years of experience in network security and operating system development. He spearheaded the development of the cloud firewall engine which still brings billions of dollars in annual revenue for the company.
 
-**Zhiwu Liu**  
-Zhiwu has a master’s degree in Computer Science. He has been engaged in the software development of high security systems, from airborne embedded software development to blockchain software development.
+**Jerry Yu**  
+Worked at HuaWei,JingDong and Crypape Technology where held position of architect
+Over 10 years of working experience in various aspects of computer programming, including DB,Network,Blockchain etc.
+Deeper Network, Nervos technical community participant.
+System level engineer(worked in Go/Rust/C++)
+Github : https://github.com/jerry-yu
+Email : huoqiutianyu@gmail.com
 
-**Zhuang Jin**  
-Zhuang has a master’s degree in Electrical Engineering. He has working experience in network security, distributed system, and embedded system development.
+**Biguo Xin**  
+Chief data scientist of WHU Big Data Instituion
+Over 5 years working on Rust
+Author of various GO/Rust libraries
+GitHub https://github.com/FrontMage
+Email xbgxwh@outlook.com
 
-**Yang Liu**  
+**Bin Guo**  
 Yang worked at Bytedance, Alibaba, Windriver, and has working experience in cloud infrastructure, operating system and embedded system.
 
-**Fei Yang**  
-Fei has been active in blockchain space since early 2017. He has worked as software engineer in blockchain startups, crypto exchanges and other blockchain project grants. He has led teams organised on the Internet to  win a couple of blockchain hackathons.
+**Fei Xie**  
+8 years as a full stack web developer in game, E-commerce and online documentation, 2 years of experience in web3 and blockchain.
+Core member of casbin (a high performance authorization framework), google summer of code 2020 community mentor: https://summerofcode.withgoogle.com/archive/2020/organizations/6587176113930240
+Contributor of [substrate](https://github.com/paritytech/substrate/commits?author=xcaptain), [frontier](https://github.com/paritytech/frontier/commits?author=xcaptain), [substrate-archive](https://github.com/paritytech/substrate-archive/commits?author=xcaptain), [polkadot api](https://github.com/polkadot-js/api/commits?author=xcaptain) and some other popular web3 opensource projects.
+Github: https://github.com/xcaptain
+Email: joey.xf@gmail.com
 
 ### Team Code Repos
 
