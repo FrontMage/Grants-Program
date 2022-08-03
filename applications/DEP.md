@@ -143,7 +143,7 @@ For each milestone,
 - **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
 - **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested. This and the costs for each milestone need to be provided in USD; if the grant is paid out in Bitcoin, the amount will be calculated according to the exchange rate at the time of payment.
 
-### Milestone 1 Example — Implement Substrate Modules
+### Milestone 1 — Implement DEP node
 
 - **Estimated duration:** 1 month
 - **FTE:**  2
@@ -152,31 +152,62 @@ For each milestone,
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.)
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone) |  
-| 2. | Substrate module: Y | We will create a Substrate module that will... |  
-| 3. | Substrate module: Z | We will create a Substrate module that will... |  
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |  
+| 0b. | Documentation | An **inline documentation** will be provided to the miners to show the functions and what should they provide for the DEP node. Then there will be a **tutorial** for miners to show them how to spin up a DEP worker node. |
+| 0c. | Test Nodes | A total of 10 DEP nodes will be deployed for testing purpose. All of these nodes are running by the developer team for debugging convience. |
+| 0d. | Testing Guide | All functions in the DEP node will be tested and provided with a rust library for test automation. |
 
 
-### Milestone 2 Example — Additional features
+### Milestone 2 — Implement DEP contract
 
-- **Estimated Duration:** 1 month
+- **Estimated duration:** 1 month
+- **FTE:**  2
+- **Costs:** 8,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Documentation | An **inline documentation** will be provided to the developer users about the APIs of the DEP contract. |
+| 0c. | Test Network | A testnet will be deployed and maintained by the developer team. |
+| 0d. | Testing Guide | All functions in the DEP contract will be tested and provided with a rust library for test automation. |
+| 0e. | Testing Application Program | Since the test of DEP requires a certain amount of network token, we will be starting a tester application program for testers to join and get free tokens on the testnet. |
+| 0f. | Article | We will publish an **article**/workshop that explains how DEP is built, these articles are targeting the power users of DEP. Furthermore, we will publishing articles for the users of DEP who are only interested in what can the network do for them and what are the advantages comparing to the traditional WEB2 solutions.
+
+### Milestone 3 — The oracle price
+
+- **Estimated duration:** 1 month
 - **FTE:**  1
-- **Costs:** 4,000 USD
+- **Costs:** 8,000 USD
 
-...
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Documentation | A totorial will be provide to show how to get oracle price by using the DEP network. |
+| 0c. | Testing Guide | All functions in the oracle price DAPP will be tested and provided with a rust library for test automation. |
+| 0d. | Article | We will publish an **article**/workshop about why the oracle price is better when running on the DEP network, and the various applications such as EZC can be built on top of it.
 
+### Milestone 4 — The Easy Cent(EZC) Trading Medium Criterion
+
+- **Estimated duration:** 1 month
+- **FTE:**  1
+- **Costs:** 8,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| 0b. | Documentation | A totorial will be provide to show how to get burn DPR into EZC. |
+| 0c. | EZC contract | A contract based on the oracle price will be made to provide basic functions of EZC. |
+| 0d. | Article | We will publish an **article**/workshop about why a non transferable token is useful to the network and how it performs as the blood of the network.
 
 ## Future Plans
+- DAPP developement guidelines and the denylist
 
-Please include here
+While we want the network to be free and open to anyone, we are also taking the `bad guys` into consideration. There should be a community voted denylist to prevent the abuse of DEP, we have hope and confidence for the most of mankind are good and willing to maintain a positive DEP network. Also a guideline will be published for developers, ones that should be aware of both the good and bad things that the network is capable of.
 
-- how you intend to use, enhance, promote and support your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+- DAPP store
+
+By building the DEP network, we are empowered to provide a easy to use, robust and dencentralized application framework, which we will build a WEB3 ecosystem on.
+
+By providing a DAPP store, developers of DEP can easily build and publish their DAPPs and the users of DEP can use our network pay for the DAPPs that there are intersted in, and the miners can easily choose what DAPPs they want to provide as a runner.
 
 
 ## Additional Information :heavy_plus_sign:
